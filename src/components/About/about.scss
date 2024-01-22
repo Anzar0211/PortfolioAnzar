@@ -1,0 +1,219 @@
+@import "../../app.scss";
+.about{
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .textContainer{
+        flex: 1;
+        align-self: flex-end;
+        display: flex;
+        gap: 18px;
+       
+        @include mobile{
+            align-self: center;
+            text-align: center;
+            flex-direction: column;
+        }
+        @include mobileLandscape{
+            align-self: center;
+            text-align: center;
+            flex-direction: column;
+        }
+        p{
+            font-weight: bold;
+            font-size: 20px;
+            color: gray;
+            text-align: right;
+            @include mobile {
+                    align-items: center;
+                    text-align: center;
+                    margin-top: 60px;
+                }
+            @include mobileLandscape {
+                align-items: center;
+                text-align: center;
+                margin-top: 0px;
+            }
+        }
+        hr{
+            width: 500px;
+            border: none;
+            border-top: 0.5px solid gray;
+            @include mobile{
+                width: 300px;
+            }
+            @include mobileLandscape{
+                width: 300px;
+                margin-bottom: 10px;
+                padding-top: -10px;
+            }
+        }
+    }
+    .titleContainer{
+        flex: 2;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        @include mobile {
+                width: 100%;
+
+            }
+        @include mobileLandscape {
+                width: 40%;
+        }
+        .title{
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            @include mobile {
+                    text-align: center;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 5px;
+                }
+            @include mobileLandscape {
+                    text-align: center;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 20px;
+            }
+            img{
+            height: 100px;
+            width: 300px;
+            object-fit: cover;
+            border-radius: 50px;
+            @include mobile {
+                    width: 50%;
+                    
+                }
+            @include mobileLandscape {
+                    width: 50%;
+                    
+                }
+        }
+        h1{
+            font-size: 96px;
+            font-weight: 100;
+            @include mobile {
+                    font-size: 30px;
+                }
+            @include mobileLandscape {
+                    font-size: 36px;
+                }
+        }
+        button{
+            height: 100px;
+            width: 300px;
+            border-radius: 50px;
+            background-color: orange;
+            font-size: 25px;
+            cursor: pointer;
+            @include mobile {
+                    width: 150px;
+                    height: 40px;
+                    font-size: 20px;
+                    font-weight: bold;
+            }
+            @include mobileLandscape {
+                    width: 150px;
+                    height: 50px;
+                    font-size: 20px;
+                    font-weight: bold;
+            }
+                                //  @include IphoneSE {
+                                //      font-size: 10px;
+                                //      width: 100px;
+                                //      height: 40px;
+
+                                //  }
+        }
+    }
+
+    }
+    .listContainer{
+        flex: 2;
+        display: flex;
+        max-width: 1366px;
+        margin: auto;
+        @include mobile {
+                flex-direction: column;
+                width: 100%;
+                margin-top: 0px;
+                
+            }
+        @include mobileLandscape {
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: flex-end;
+                text-align: center;
+                
+                // margin-top: 30px;
+                width: 110%;
+                height: 1em;
+            }
+        .box{
+            padding: 50px;
+            border: 0.5px solid gray;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            h2{
+                @include mobileLandscape{
+                    font-size: 20px;
+                }
+            }
+            @include mobile {
+                    
+                    border: none;
+                    align-items: center;
+                    padding: 5px;
+                }
+            @include mobileLandscape{
+                    
+                    border: none;
+                    align-items: center;
+                    padding: 0px;
+                    margin-bottom: 100px;
+                    margin-right: 30px;
+                    gap: 0px;
+                }
+                // @include IphoneSE{
+                //     padding: 3px;
+                // }
+            p{
+                @include mobile {
+                        display: none;
+                    }
+                @include mobileLandscape {
+                        display: none;
+                    }
+            }
+            button{
+                margin-top: 10px;
+                padding: 10px;
+                background-color: orange;
+                border: none;
+                cursor: pointer;
+                @include mobile {
+                        padding: 5px;
+                        width: 60px;
+                        border-radius: 5px;
+                        border: 1px solid white;
+                        background-color: transparent;
+                        color: white;
+                    }
+                @include mobileLandscape {
+                        padding: 2px;
+                        width: 60px;
+                        border-radius: 5px;
+                        border: 1px solid white;
+                        background-color: transparent;
+                        color: white;
+                    }
+                                        
+            }
+        }
+    }
+}

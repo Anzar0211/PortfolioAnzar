@@ -1,0 +1,65 @@
+$breakpoints:(
+    "mobile":430px,
+    "tablet":768px,
+    "desktop":1200px,
+    "LGdesktop":1920px
+)!default;
+
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans",sans-serif;
+
+}
+body{
+    background-color: #0c0c1d;
+    color: lightgray;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+section{
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+// @include media("<=mobile"){
+//     @content
+// }
+
+@mixin mobile {
+    @media (max-width:430px){
+        @content;
+    }
+}
+@mixin mobileLandscape {
+    @media (max-width:1024px){
+        @content;
+    }
+}
+@mixin laptop{
+    @media (min-width:1024px) {
+            @content;
+        }
+}
+// @mixin IphoneSE {
+//     @media(max-height:900px) {
+//         @content;
+//     }
+// }
+@mixin tablet {
+    @media (max-width:1024px){
+        @content;
+    }
+}
+@mixin desktop {
+    @media (max-width:1366px){
+        @content;
+    }
+}
