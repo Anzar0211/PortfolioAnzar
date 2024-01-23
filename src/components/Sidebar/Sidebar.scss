@@ -15,6 +15,7 @@
         bottom: 0;
         @include mobile {
                 width: 200px;
+                
             }
         background-color: white;
         .links{
@@ -26,10 +27,14 @@
             align-items: center;
             justify-content: center;
             gap: 20px;
+            @include mobileLandscape{
+                
+            }
             a{
                 font-size: 40px;
                 @include mobile {
-                        font-size: 20px;
+                        font-size: 30px;
+                        margin-bottom: 60px;
                     }
             }
         }

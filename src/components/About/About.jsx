@@ -22,55 +22,76 @@ const About = () => {
   const isInView=useInView(ref,{margin:"-100px"}) 
   return (
     <motion.div className="about" variants={variants} initial="initial" ref={ref}animate="animate">
-        <motion.div className="textContainer" variants={variants}>
+        {/* <motion.div className="textContainer" variants={variants}>
             <p>Lorem ipsum dolor sit <br />
              amet consectetur.</p>
              <hr />
-        </motion.div>
+        </motion.div> */}
         <motion.div className="titleContainer" variants={variants}>
-            <div className="title">
+            {/* <div className="title"> */}
                 <img src="/people.webp" alt="" />
-                <h1>
-                    <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
-                </h1>
-            </div>
-            <div className="title">
+                <p className="intro">
+                    <motion.b whileHover={{color:"orange"}}>Unique</motion.b>
+                    &nbsp;
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates atque unde et explicabo quam aliquam error aspernatur fugiat aliquid! Dolorum distinctio consequatur numquam amet! Aliquid vitae reiciendis perferendis praesentium recusandae.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    
+                </p>
+            {/* </div> */}
+            {/* <div className="title">
                 
-                <h1>
+                <p>
                     <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business
-                </h1>
-                <button>What We Do</button>
-            </div>
+                </p>
+                
+            </div> */}
 
         </motion.div>
         <motion.div className="listContainer" variants={variants}>
             <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
-                <h2>Branding</h2>
+                <h2>Skills</h2>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates atque unde et explicabo quam aliquam error aspernatur fugiat aliquid! Dolorum distinctio consequatur numquam amet! Aliquid vitae reiciendis perferendis praesentium recusandae.
+                    
+                    <div>Course WorkData Structures and Algorithms,DBMS,OOPs,</div>
                 </p>
-                <button>Go</button>
+                <p>
+                    
+                    <div>Course WorkData Structures and Algorithms,DBMS,OOPs,</div>
+                </p>
+                <p>
+                    Course Work
+                    <div>Data Structures and Algorithms,DBMS,OOPs,</div>
+                </p>
+                
             </motion.div>
             <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
-                <h2>Branding</h2>
+                <h2>Experience</h2>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates atque unde et explicabo quam aliquam error aspernatur fugiat aliquid! Dolorum distinctio consequatur numquam amet! Aliquid vitae reiciendis perferendis praesentium recusandae.
+                    Full Stack Developer at ABC Company (June 21 - Present)
                 </p>
-                <button>Go</button>
+                <p>
+                    Full Stack Developer at ABC Company (June 21 - Present)
+                </p>
+                <p>
+                    Full Stack Developer at ABC Company (June 21 - Present)
+                </p>
+                
             </motion.div>
             <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
-                <h2>Branding</h2>
+                <h2>Education</h2>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates atque unde et explicabo quam aliquam error aspernatur fugiat aliquid! Dolorum distinctio consequatur numquam amet! Aliquid vitae reiciendis perferendis praesentium recusandae.
+                    Sep 2021-July 2025
+                    <div>Btech,Computer Science and Information Technology-Akgec Ghaziabad </div>
                 </p>
-                <button>Go</button>
-            </motion.div>
-            <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
-                <h2>Branding</h2>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates atque unde et explicabo quam aliquam error aspernatur fugiat aliquid! Dolorum distinctio consequatur numquam amet! Aliquid vitae reiciendis perferendis praesentium recusandae.
+                    Sep 2021-July 2025
+                    <div>Btech,Computer Science and Information Technology-Akgec Ghaziabad </div>
                 </p>
-                <button>Go</button>
+                <p>
+                    Sep 2021-July 2025
+                    <div>Btech,Computer Science and Information Technology-Akgec Ghaziabad </div>
+                </p>
+                
             </motion.div>
         </motion.div>
     </motion.div>

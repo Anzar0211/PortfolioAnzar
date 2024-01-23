@@ -50,6 +50,11 @@ const Contact = () => {
           <h2>Phone</h2>
           <span>8368554479</span>
         </div>
+        <div className="social">
+            <a href="#"><img src="/linkedin.png" alt="" /></a>
+            <a href="#"><img src="/Github-1.png" alt="" /></a>
+            
+        </div>
       </div>
       
       <div className="formContainer">
