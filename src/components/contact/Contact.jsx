@@ -25,8 +25,7 @@ const Contact = () => {
   const[success,setSuccess]=useState(false)
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs.sendForm('service_b11sv7t', 'template_df16h7p', formRef.current, 'C-p74h1lFDyGXqrTP')
+    emailjs.sendForm('service_740knj9', 'template_df16h7p', formRef.current, 'C-p74h1lFDyGXqrTP')
       .then((result) => {
           setSuccess(true)
       }, (error) => {
@@ -40,20 +39,21 @@ const Contact = () => {
         
         <div className="item" >
           <h2>Mail</h2>
-          <span>xyz@gmail.com</span>
+          <span>anzarkhan790@gmail.com</span>
         </div>
         <div className="item" >
-          <h2>Address</h2>
-          <span>xyz</span>
+          <h2>College</h2>
+          <span>Ajay Kumar Garg Engg. College 27th KM Milestone,<br/></span>
+          <span>Delhi - Meerut Expy, Ghaziabad, Uttar Pradesh 201015</span>
         </div>
         <div className="item" >
           <h2>Phone</h2>
           <span>8368554479</span>
         </div>
         <div className="social">
-            <a href="#"><img src="/linkedin.png" alt="" /></a>
-            <a href="#"><img src="/Github-1.png" alt="" /></a>
-            
+            <a href="https://www.linkedin.com/in/mohd-anzar-783060227"><img src="/linkedin.png" alt="" /></a>
+            <a href="https://github.com/Anzar0211"><img src="/Github-1.png" alt="" /></a>
+            <a href="https://anzar0211.github.io/Resume/"><img src="/resume.png" alt="" /></a>
         </div>
       </div>
       
@@ -62,7 +62,7 @@ const Contact = () => {
         <form ref={formRef} onSubmit={sendEmail}>
           <input type="text" placeholder="Name" required name="name"/>
           <input type="email" placeholder="Email" required name="email"/>
-          <textarea rows="10" placeholder="message" name="message"/>
+          <textarea rows="10" placeholder="message" required name="message"/>
           <button>Submit</button>
           {error && 'Error'}
           {success && 'Success'}

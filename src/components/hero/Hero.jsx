@@ -43,20 +43,20 @@ const Hero = () => {
     <div className="hero">
         <div className="wrapper">
             <motion.div className="textContainer" variants={textVariants} initial="initial" animate="animate"> 
-                <motion.h2 variants={textVariants}>HARVEY SPECTER</motion.h2>
-                <motion.h1 variants={textVariants}>New York City's Best Closer</motion.h1>
+                <motion.h2 variants={textVariants}>MOHAMMAD ANZAR</motion.h2>
+                <motion.h1 variants={textVariants}>Web Developer</motion.h1>
                 <motion.div variants={textVariants} className="buttons">
-                    <motion.button variants={textVariants}>See the latest Works</motion.button>
-                    <motion.button variants={textVariants}>Contact Me</motion.button>
+                    <motion.button variants={textVariants}>
+                        <motion.a href={`#Portfolio`}>See The Latest Works</motion.a>
+                    </motion.button>
+                    <motion.button variants={textVariants}>
+                        <motion.a href={`#Contact`}>Contact Me</motion.a>
+                    </motion.button>
                 </motion.div>
                 <motion.img variants={textVariants} animate="scrollButton" src="/scroll.png" alt="" />
             </motion.div>
         </div>
-            <motion.div className="slidingText" variants={sliderVariants} initial="initial" animate="animate">CLOSER</motion.div>
-            <div className="imageContainer">
-                <img src="/hero.png" alt="" />
-            </div>
-        
+            <motion.div className="slidingText" variants={sliderVariants} initial="initial" animate="animate">WELCOME</motion.div>
     </div>
   )
 }

@@ -6,25 +6,22 @@ const items=[
         id:1,
         title:"YelpCamp campgrounds",
         img:"https://images.pexels.com/photos/5994385/pexels-photo-5994385.jpeg?auto=compress&cs=tinysrgb&w=600",
-        desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eligendi fuga similique voluptates ad asperiores placeat. Eum voluptatum atque nihil, harum ipsam numquam ducimus. Provident placeat maiores perspiciatis veniam repellendus."
+        desc:"YelpCamp is a web app for campers to find and share info on campgrounds. Discover new spots, leave reviews, and contribute to a growing database for the outdoor community.",
+        link:"https://yelpcamp-1yy4.onrender.com/"
     },
     {
         id:2,
-        title:"Next JS App",
-        img:"https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&w=600",
-        desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eligendi fuga similique voluptates ad asperiores placeat. Eum voluptatum atque nihil, harum ipsam numquam ducimus. Provident placeat maiores perspiciatis veniam repellendus."
+        title:"Goalpost Gazette",
+        img:"https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600",
+        desc:"Goalpost Gazette delivers in-depth analysis, news, and commentary for the passionate football fan. Dive deeper into the beautiful game with insightful stories, discussions, and expert takes. Whether you're a die-hard supporter or a casual observer, Goalpost Gazette is your one-stop shop for all things football.",
+        link:"https://goalpost-gazette.onrender.com/"
     },
     {
-        id:1,
-        title:"Vanilla JS App",
-        img:"https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=600",
-        desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eligendi fuga similique voluptates ad asperiores placeat. Eum voluptatum atque nihil, harum ipsam numquam ducimus. Provident placeat maiores perspiciatis veniam repellendus."
-    },
-    {
-        id:1,
-        title:"React App",
-        img:"https://images.pexels.com/photos/4482900/pexels-photo-4482900.jpeg?auto=compress&cs=tinysrgb&w=600",
-        desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eligendi fuga similique voluptates ad asperiores placeat. Eum voluptatum atque nihil, harum ipsam numquam ducimus. Provident placeat maiores perspiciatis veniam repellendus."
+        id:3,
+        title:"Traditions to Trends",
+        img:"https://t2t.onrender.com/static/media/logote2t.475aea3d.png",
+        desc:"Traditions to Trends curates modern takes on classic Indian traditions. Find handcrafted goods, homeware, and trendy accessories - a vibrant fusion of heritage and style. Shop now!",
+        link:"https://t2t.onrender.com/"
     },
 ]
 const Single=({item})=>{
@@ -41,7 +38,7 @@ const Single=({item})=>{
                     <motion.div className="textContainer" style={{y}}>
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
-                        <button>See Demo</button>
+                        <button><motion.a href={item.link} target="_blank" rel="noopener noreferrer">See Demo</motion.a></button>
                     </motion.div>
                 </div>
             </div>

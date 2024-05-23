@@ -29,12 +29,11 @@ const About = () => {
         </motion.div> */}
         <motion.div className="titleContainer" variants={variants}>
             {/* <div className="title"> */}
-                <img src="/people.webp" alt="" />
+                <img src="/Pic.jpeg" alt="" />
                 <p className="intro">
-                    <motion.b whileHover={{color:"orange"}}>Unique</motion.b>
+                    <motion.b whileHover={{color:"orange"}}>Hi! I am Mohammad Anzar</motion.b>
                     &nbsp;
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates atque unde et explicabo quam aliquam error aspernatur fugiat aliquid! Dolorum distinctio consequatur numquam amet! Aliquid vitae reiciendis perferendis praesentium recusandae.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    A third-year B.Tech computer science student with a passion for Full Stack Development, Excel in JavaScript and C++. Specialized in the MERN stack backed by strong problem-solving skills. Dedicated for creating efficient and versatile software solutions. 
                     
                 </p>
             {/* </div> */}
@@ -52,16 +51,16 @@ const About = () => {
                 <h2>Skills</h2>
                 <p>
                     
-                    <div>Course WorkData Structures and Algorithms,DBMS,OOPs,</div>
+                     <div>Course WorkData Structures and Algorithms,DBMS,OOPs,</div>
                 </p>
                 <p>
-                    
                     <div>Course WorkData Structures and Algorithms,DBMS,OOPs,</div>
+                    
                 </p>
                 <p>
                     Course Work
                     <div>Data Structures and Algorithms,DBMS,OOPs,</div>
-                </p>
+                    </p>
                 
             </motion.div>
             <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
@@ -79,17 +78,20 @@ const About = () => {
             </motion.div>
             <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
                 <h2>Education</h2>
+               
                 <p>
                     Sep 2021-July 2025
-                    <div>Btech,Computer Science and Information Technology-Akgec Ghaziabad </div>
+                    <div>Btech,Computer Science and Information Technology-AKGEC Ghaziabad </div>
                 </p>
+                <br />
                 <p>
                     Sep 2021-July 2025
-                    <div>Btech,Computer Science and Information Technology-Akgec Ghaziabad </div>
+                    <div>Btech,Computer Science and Information Technology-AKGEC Ghaziabad </div>
                 </p>
-                <p>
+                <br />
+               <p>
                     Sep 2021-July 2025
-                    <div>Btech,Computer Science and Information Technology-Akgec Ghaziabad </div>
+                    <div>Btech,Computer Science and Information Technology</div>
                 </p>
                 
             </motion.div>
