@@ -51,15 +51,15 @@ const About = () => {
                 <h2>Skills</h2>
                 <p>
                     
-                     <div>Course WorkData Structures and Algorithms,DBMS,OOPs,</div>
+                     <div>Course Work:Data Structures and Algorithms,DBMS,OOPs</div>
                 </p>
                 <p>
-                    <div>Course WorkData Structures and Algorithms,DBMS,OOPs,</div>
+                    <div>HTML,CSS,JavaScript</div>
                     
                 </p>
                 <p>
-                    Course Work
-                    <div>Data Structures and Algorithms,DBMS,OOPs,</div>
+                    Tailwind CSS
+                    <div>MERN Stack,Typescript,Redux</div>
                     </p>
                 
             </motion.div>
@@ -85,13 +85,13 @@ const About = () => {
                 </p>
                 <br />
                 <p>
-                    Sep 2021-July 2025
-                    <div>Btech,Computer Science and Information Technology-AKGEC Ghaziabad </div>
+                    <div>June-2021 (90.02%)</div>
+                    <div>CLASS XII,Physics Chemistry Maths-St.Thomas School Ghaziabad </div>
                 </p>
                 <br />
                <p>
-                    Sep 2021-July 2025
-                    <div>Btech,Computer Science and Information Technology</div>
+                    <div>Apr-2019 (85.00%)</div>
+                    <div>CLASS X,St.Thomas School Indrapuram Ghaziabad </div>
                 </p>
                 
             </motion.div>
@@ -100,3 +100,14 @@ const About = () => {
   )
 }
 export default About
+
+
+{/* <p>
+                    June-2021 (90.02%)
+                    <div>CLASS XII,Physics Chemistry Maths-St.Thomas School Ghaziabad </div>
+                </p>
+                <br />
+               <p>
+                    Apr-2019 (85.00%)
+                    <div>CLASS X,St.Thomas School Indrapuram Ghaziabad</div>
+                </p> */}
