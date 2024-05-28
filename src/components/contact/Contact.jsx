@@ -51,9 +51,9 @@ const Contact = () => {
           <span>8368554479</span>
         </div>
         <div className="social">
-            <a href="https://www.linkedin.com/in/mohd-anzar-783060227"><img src="/linkedin.png" alt="" /></a>
-            <a href="https://github.com/Anzar0211"><img src="/Github-1.png" alt="" /></a>
-            <a href="https://anzar0211.github.io/Resume/"><img src="/resume.png" alt="" /></a>
+            <a href="https://www.linkedin.com/in/mohd-anzar-783060227" target="_blank" rel="noopener noreferrer"><img src="/linkedin.png" alt="" /></a>
+            <a href="https://github.com/Anzar0211" target="_blank" rel="noopener noreferrer"><img src="/Github-1.png" alt="" /></a>
+            <a href="https://anzar0211.github.io/Resume/" target="_blank" rel="noopener noreferrer"><img src="/resume.png" alt="" /></a>
         </div>
       </div>
       
