@@ -20,7 +20,7 @@ const Parallax = ({type}) => {
     }}>
         <motion.h1 style={{y:yText}}>{type==="about"?"About Me":"My Projects"}</motion.h1>
         <motion.div className="mountains">
-          <img src={Mountains} alt="" />
+          {/* <img src={Mountains} alt="" /> */}
         </motion.div>
         <motion.div style={{y:yBG,backgroundImage:`url(${type==="about"?"./planets.png":"./sun.png"})`}} className="planets"></motion.div>
         <motion.div className="stars">
