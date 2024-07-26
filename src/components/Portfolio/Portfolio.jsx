@@ -18,6 +18,13 @@ const items=[
     },
     {
         id:3,
+        title:"BookAway.com",
+        img:"https://www.siteminder.com/wp-content/uploads/2023/08/vala-hero.jpg",
+        desc:"BookAway.com is a hotel booking application built using the MERN Stack and Typescript having robust hotel management with image uploads,intuitive search/sort/filter functionalities,seamless Stripe integration for payments,and a dynamic home page showcasing the latest hotels.",
+        link:"https://hotelbookingapp-frontend.onrender.com/"
+    },
+    {
+        id:4,
         title:"Traditions to Trends",
         img:"https://t2t.onrender.com/static/media/logote2t.475aea3d.png",
         desc:"Traditions to Trends curates modern takes on classic Indian traditions. Find handcrafted goods, homeware, and trendy accessories - a vibrant fusion of heritage and style. Shop now!",
